@@ -135,7 +135,7 @@ local function SendNotification(text)
     Notification:Notify(
         {Title = "vexternal by vex", Description = "arcylarcy#0 - "..text},
         {OutlineColor = Color3.fromRGB(50,76,110),Time = 2, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=12660886009", ImageColor = Color3.fromRGB(40,16,110)}
+        {Image = "http://www.roblox.com/asset/?id=14069265033", ImageColor = Color3.fromRGB(40,16,110)}
     )
 end 
 
