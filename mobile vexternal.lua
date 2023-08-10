@@ -133,17 +133,17 @@ local c = ws.CurrentCamera
 -- // Notification Function
 local function SendNotification(text)
     Notification:Notify(
-        {Title = "DNS Rewrite by vex", Description = "arcylarcy#0 - "..text},
+        {Title = "vexternal by vex", Description = "arcylarcy#0 - "..text},
         {OutlineColor = Color3.fromRGB(50,76,110),Time = 2, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(50,76,110)}
+        {Image = "http://www.roblox.com/asset/?id=12660886009", ImageColor = Color3.fromRGB(40,16,110)}
     )
 end 
 
 -- // Call notification function
 if uwuMain.Notifications then
-    SendNotification("arcylarcy#0- injecting DNS Rewrite")
+    SendNotification("arcylarcy#0- injecting vexternal")
     wait(3.5)
-    SendNotification("arcylarcy#0 - finished injecting DNS Rewrite")
+    SendNotification("arcylarcy#0 - finished injecting vexternal")
 end
 
 -- // Camlock FOV
