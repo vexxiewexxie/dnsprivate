@@ -12,11 +12,11 @@ getgenv().DNS = {
             Parts = {"Head","LowerTorso","UpperTorso"}
         },
         FOV = {
-            ShowFOV = false,
+            ShowFOV = true,
             Radius = 70,
             Color = Color3.fromRGB(0, 71, 171),
             Filled = false,
-            Transparency = 3
+            Transparency = 2982939
         }
     },
     Camlock = {
@@ -27,9 +27,9 @@ getgenv().DNS = {
             SmoothLock = false,
             Smoothness = 0.067,
             PredictMovement = true,
-            Prediction = 0.143,
-            Shake = false,
-            ShakeValue = 14,
+            Prediction = 0.14333,
+            Shake = true,
+            ShakeValue = 12,
             Parts = {"Head"}
         },
         FOV = {
