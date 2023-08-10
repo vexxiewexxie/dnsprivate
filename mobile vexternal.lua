@@ -7,7 +7,7 @@ getgenv().DNS = {
         Main = {
             Enabled = true,
             Mode = "Target",
-            Toggle = "C",
+            Toggle = "Q",
             Prediction = 0.12471,
             Parts = {"Head","LowerTorso","UpperTorso"}
         },
@@ -28,7 +28,7 @@ getgenv().DNS = {
             Smoothness = 0.067,
             PredictMovement = true,
             Prediction = 0.143,
-            Shake = true,
+            Shake = false,
             ShakeValue = 14,
             Parts = {"Head"}
         },
