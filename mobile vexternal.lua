@@ -42,7 +42,7 @@ getgenv().DNS = {
         }
     },
     Tracer = {
-        Enabled = true,
+        Enabled = false,
         Color = Color3.fromRGB(137, 207, 240),
         Transparency = 10,
         Visible = true
