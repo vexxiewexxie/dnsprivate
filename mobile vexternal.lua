@@ -12,7 +12,7 @@ getgenv().DNS = {
             Parts = {"Head","LowerTorso","UpperTorso"}
         },
         FOV = {
-            ShowFOV = true,
+            ShowFOV = false,
             Radius = 70,
             Color = Color3.fromRGB(0, 71, 171),
             Filled = false,
@@ -42,10 +42,10 @@ getgenv().DNS = {
         }
     },
     Tracer = {
-        Enabled = false,
+        Enabled = true,
         Color = Color3.fromRGB(137, 207, 240),
-        Transparency = 0.4,
-        Visible = false
+        Transparency = 10,
+        Visible = true
     },
     AutoPrediction = { -- the numbers are pings ( this is for silent + Current sets not recommended )
         Enabled = true,
