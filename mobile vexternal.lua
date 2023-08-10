@@ -27,10 +27,10 @@ getgenv().DNS = {
             SmoothLock = false,
             Smoothness = 0.067,
             PredictMovement = true,
-            Prediction = 0.154,
+            Prediction = 0.164,
             Shake = true,
-            ShakeValue = 25,
-            Parts = {"Head"}
+            ShakeValue = 14,
+            Parts = {"Head","LowerTorso"}
         },
         FOV = {
             UseFOV = true,
