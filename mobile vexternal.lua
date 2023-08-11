@@ -1,4 +1,4 @@
-getgenv().DNS = {
+getgenv().Vexternal = {
     General = {
         Notifications = true,
         FOVMode = "PredictionPoint"
@@ -93,7 +93,7 @@ end
 local mainevent = MainEventLocate()
 
 -- // Shorthand
-local uwuDNS = getgenv().DNS
+local uwuDNS = getgenv().Vexternal
 local uwuMain = uwuDNS.General
 local uwuCamMain = uwuDNS.Camlock.Main
 local uwuCamFOV = uwuDNS.Camlock.FOV
