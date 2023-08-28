@@ -25,12 +25,12 @@ getgenv().Vexternal = {
             Key = "Q",
             UnlockKey = "T",
             SmoothLock = true,
-            Smoothness = 0.05,
+            Smoothness = 0.1,
             PredictMovement = true,
             Prediction = 0.16831021,
             Shake = true,
-            ShakeValue = 1,
-            Parts = {"Head","HumanoidRootPart","UpperTorso","LowerTorso"}
+            ShakeValue = 29,
+            Parts = {"Head","LowerTorso","UpperTorso"}
         },
         FOV = {
             UseFOV = true,
@@ -135,7 +135,7 @@ local function SendNotification(text)
     Notification:Notify(
         {Title = "vexternal by vex", Description = "arcylarcy#0 - "..text},
         {OutlineColor = Color3.fromRGB(50,76,110),Time = 2, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=14069265033", ImageColor = Color3.fromRGB(40,16,110)}
+        {Image = "http://www.roblox.com/asset/?id=14069265033", ImageColor = Color3.fromRGB(10,1,110)}
     )
 end 
 
