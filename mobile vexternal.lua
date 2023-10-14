@@ -27,9 +27,9 @@ getgenv().Vexternal = {
             SmoothLock = true,
             Smoothness = 0.2,
             PredictMovement = true,
-            Prediction = 0.1678971,
+            Prediction = 0.1878971,
             Shake = true,
-            ShakeValue = 0.22,
+            ShakeValue = 0.13,
             Parts = {"Head","HumanoidRootPart"}
 
         FOV = {
