@@ -26,11 +26,11 @@ getgenv().DNS = {
             Key = "Q",
             UnlockKey = "Z",
             SmoothLock = true,
-            Smoothness = 1,
+            Smoothness = 0.0421,
             PredictMovement = true,
-            Prediction = 0.20,
+            Prediction = 0.14333333,
             Shake = true,
-            ShakeValue = 5,
+            ShakeValue = 1,
             Parts = {"HumanoidRootPart"}
         },
         FOV = {
