@@ -26,12 +26,12 @@ getgenv().DNS = {
             Key = "Q",
             UnlockKey = "Z",
             SmoothLock = true,
-            Smoothness = 0.0939499494995959,
+            Smoothness = 0.0984,
             PredictMovement = true,
-            Prediction = 0.169,
+            Prediction = 0.21,
             Shake = true,
-            ShakeValue = 5,
-            Parts = {"Head"}
+            ShakeValue = 2,
+            Parts = {"Head,UpperTorso"}
         },
         FOV = {
             UseFOV = true,
@@ -181,7 +181,7 @@ local c = ws.CurrentCamera
 -- // Notification Function
 local function SendNotification(text)
     Notification:Notify(
-        {Title = "DNS Rewrite", Description = "pl#0001 - "..text},
+        {Title = "best ??????", Description = "?x??" - "..text},
         {OutlineColor = Color3.fromRGB(50,76,110),Time = 2, Type = "image"},
         {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(50,76,110)}
     )
@@ -189,9 +189,9 @@ end
 
 -- // Call notification function
 if uwuMain.Notifications then
-    SendNotification("pl#0001 - injecting DNS Rewrite")
+    SendNotification("injecting edited dns...")
     wait(3.5)
-    SendNotification("pl#0001 - finished injecting DNS Rewrite")
+    SendNotification("finished injecting")
 end
 
 -- // Camlock FOV
